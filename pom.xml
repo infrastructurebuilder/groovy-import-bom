@@ -15,7 +15,6 @@
     <connection>scm:git:git@github.com:${team.name}/${project.artifactId}.git</connection>
     <developerConnection>scm:git:git@github.com:${team.name}/${project.artifactId}.git</developerConnection>
     <url>scm:git:git@github.com:${team.name}/${project.artifactId}.git</url>
-    <tag>groovy-import-pom-2.5.6.0</tag>
   </scm>
   <distributionManagement>
     <snapshotRepository>
