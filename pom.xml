@@ -9,12 +9,12 @@
   <url>https://github.com/${team.name}/${project.artifactId}</url>
   <issueManagement>
     <system>GitHub</system>
-    <url>https://github.org/${team.name}/${project.artifactId}/issues</url>
+    <url>https://github.com/${team.name}/${project.artifactId}/issues</url>
   </issueManagement>
   <scm>
-    <connection>scm:git:git@github.org/${team.name}/${project.artifactId}.git</connection>
-    <developerConnection>scm:git:git@github.org/${team.name}/${project.artifactId}.git</developerConnection>
-    <url>scm:git:git@github.org/${team.name}/${project.artifactId}.git</url>
+    <connection>scm:git:git@github.com:${team.name}/${project.artifactId}.git</connection>
+    <developerConnection>scm:git:git@github.com:${team.name}/${project.artifactId}.git</developerConnection>
+    <url>scm:git:git@github.com:${team.name}/${project.artifactId}.git</url>
     <tag>groovy-import-pom-2.5.6.0</tag>
   </scm>
   <distributionManagement>
