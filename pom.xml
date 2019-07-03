@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.infrastructurebuilder.util</groupId>
   <artifactId>groovy-import-pom</artifactId>
@@ -47,7 +49,7 @@
     <groovy.version>2.5.7</groovy.version>
     <groovy.xmlrpc.version>0.8</groovy.xmlrpc.version>
 
-    <maven.doxia.version>1.8</maven.doxia.version>
+    <maven.doxia.version>1.9</maven.doxia.version>
     <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
     <maven.nexus.staging.plugin.version>1.6.8</maven.nexus.staging.plugin.version>
     <maven.project.info.plugin.version>3.0.0</maven.project.info.plugin.version>
@@ -91,7 +93,33 @@
       </dependency>
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-jmx</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-docgenerator</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-groovydoc</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-cli-picocli</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
         <artifactId>groovy-sql</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-swing</artifactId>
         <version>${groovy.version}</version>
       </dependency>
       <dependency>
@@ -171,6 +199,11 @@
       </dependency>
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-jaxb</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
         <artifactId>groovy-json</artifactId>
         <version>${groovy.version}</version>
       </dependency>
@@ -179,6 +212,17 @@
         <artifactId>groovy-json-direct</artifactId>
         <version>${groovy.version}</version>
       </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-cli-commons</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-servlet</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+
     </dependencies>
   </dependencyManagement>
   <build>
