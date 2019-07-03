@@ -156,6 +156,16 @@
       </dependency>
       <dependency>
         <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-ant</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-dateutil</artifactId>
+        <version>${groovy.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
         <artifactId>groovy-xml</artifactId>
         <version>${groovy.version}</version>
       </dependency>
