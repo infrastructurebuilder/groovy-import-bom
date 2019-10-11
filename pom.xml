@@ -58,7 +58,7 @@
     <maven.project.info.plugin.version>3.0.0</maven.project.info.plugin.version>
     <maven.release.plugin.version>2.5.3</maven.release.plugin.version>
     <maven.site.plugin.version>3.8.2</maven.site.plugin.version>
-    <maven.source.plugin.version>3.0.1</maven.source.plugin.version>
+    <maven.source.plugin.version>3.1.0</maven.source.plugin.version>
     <maven.version>3.6.2</maven.version>
     <maven.wagon.version>3.3.3</maven.wagon.version>
   </properties>
@@ -320,7 +320,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-project-info-reports-plugin</artifactId>
-        <version>maven.project.info.plugin.version</version>
+        <version>${maven.project.info.plugin.version}</version>
       </plugin>
     </plugins>
   </reporting>
