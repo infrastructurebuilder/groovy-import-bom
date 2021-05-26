@@ -46,7 +46,7 @@
 
   <properties>
     <team.name>infrastructurebuilder</team.name>
-    <groovy.version>3.0.7</groovy.version>
+    <groovy.version>3.0.8</groovy.version>
     <groovy.xmlrpc.version>0.8</groovy.xmlrpc.version>
 
     <maven.deploy.plugin.version>3.0.0-M1</maven.deploy.plugin.version>
@@ -55,8 +55,8 @@
     <maven.doxia.version>1.9.1</maven.doxia.version>
     <maven.gpg.plugin.version>1.6</maven.gpg.plugin.version>
     <maven.nexus.staging.plugin.version>1.6.8</maven.nexus.staging.plugin.version>
-    <maven.project.info.plugin.version>3.1.1</maven.project.info.plugin.version>
-    <maven.release.plugin.version>3.0.0-M1</maven.release.plugin.version>
+    <maven.project.info.plugin.version>3.1.2</maven.project.info.plugin.version>
+    <maven.release.plugin.version>3.0.0-M4</maven.release.plugin.version>
     <maven.site.plugin.version>3.9.1</maven.site.plugin.version>
     <maven.source.plugin.version>3.2.1</maven.source.plugin.version>
     <maven.version>3.6.3</maven.version>
